@@ -33,8 +33,8 @@ input{
                     4px 5px 10px #c2c2c2;
     margin: 0 0 3% 0;
 }
-.twoCols{
-    grid-column:  span 2;
+.twoRows{
+    grid-row:  span 2;
 }
 button{
     background: rgba(95, 95, 95, 0.438);
