@@ -7,7 +7,7 @@
     font-size: 20px;
 }
 body{
-    background: #000000;
+    background: #c9c9c9;
 }
 .CalculatorInterface{
     display: flex;
@@ -22,7 +22,7 @@ body{
     padding: 1em;
     border-radius: 5%;
     box-shadow: 2px 2px 10px rgb(216, 216, 216),
-                inset 2px 2px 10px rgb(216, 216, 216);
+                inset 0px 0px 10px #6d6d6d;
 }
 input{
     grid-column: span 4;
@@ -31,9 +31,9 @@ input{
     background: #c2c2c232;
     font-size: 50px;
     text-align: end;
-    color: #fff;
+    color: #525252;
     padding: 20px;
-    box-shadow: inset 2px 2px 8px #c2c2c2,
+    box-shadow: inset 2px 2px 8px #6d6d6d,
                     2px 2px 5px #c2c2c2;
     margin: 0 0 3% 0;
 }
@@ -42,10 +42,10 @@ input{
 }
 button{
     background: rgba(116, 116, 116, 0.438);
-    color: white;
+    color: rgb(79, 79, 79);
     padding: 10px;
     border-radius: 30px;
-    box-shadow: 0 0 4px #cecece;
+    box-shadow: 0 0 4px inset #6d6d6d;
     cursor: pointer;
 }
 p{
@@ -53,5 +53,5 @@ p{
     justify-content: center;
     align-items: center;
     font-size: 10px;
-    color: #ffffff;
+    color: #000000;
 }
