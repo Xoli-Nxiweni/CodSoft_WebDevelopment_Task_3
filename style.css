@@ -6,6 +6,10 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
 }
+::selection{
+    background: gray;
+    color:#fff;
+}
 body{
     background: #c9c9c9;
 }
@@ -33,20 +37,38 @@ input{
     text-align: end;
     color: #525252;
     padding: 20px;
-    box-shadow: inset 2px 2px 8px #6d6d6d,
-                    2px 2px 5px #c2c2c2;
+    box-shadow: inset 0px 0px 10px #6d6d6d,
+                    0px 0px 10px #c2c2c2;
     margin: 0 0 3% 0;
+    border:none
 }
-.twoRows{
+input:focus {
+    outline: none; 
+}
+/* .twoRows{
     grid-row:  span 2;
-}
+} */
 button{
     background: rgba(116, 116, 116, 0.438);
     color: rgb(79, 79, 79);
     padding: 10px;
     border-radius: 30px;
-    box-shadow: 0 0 4px inset #6d6d6d;
+    box-shadow: 0 0 10px inset #6d6d6d;
     cursor: pointer;
+    font-weight: bold;
+}
+.Calculator :nth-child(2),
+.Calculator :nth-child(3),
+.Calculator :nth-child(4),
+.Calculator :nth-child(5),
+.Calculator :nth-child(9),
+.Calculator :nth-child(13),
+.Calculator :nth-child(17)
+{
+    background: #ff9fac;
+}
+.Calculator :last-child{
+    background: #bfff9f;
 }
 p{
     display: flex;
